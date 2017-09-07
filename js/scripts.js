@@ -1,8 +1,19 @@
 $(document).ready(function() { 
 
-$('.carousel').carousel({
-  interval: false
-})
+// $('.carousel').carousel({
+//   interval: 5000
+// });
+
+
+var interval = 3500;
+$.fn.carousel.Constructor.TRANSITION_DURATION = interval - 5000;
+elem.carousel({
+    interval : interval
+});
+
+
+
+
 
 });
 

@@ -19,7 +19,7 @@ imagemin: {
           expand: true,
           cwd: 'images/',
           src: ['**/*.{png,jpg,gif}'],
-          dest: 'images/img_ready/'
+          dest: 'images/'
         }]
       }
     },
