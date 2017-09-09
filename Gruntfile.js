@@ -13,16 +13,7 @@
         }
     },
 
-imagemin: {
-      dynamic: {
-        files: [{
-          expand: true,
-          cwd: 'images/',
-          src: ['**/*.{png,jpg,gif}'],
-          dest: 'images/'
-        }]
-      }
-    },
+
 
 
 
@@ -62,6 +53,6 @@ imagemin: {
 
 
   //Default task(s).
-  grunt.registerTask('default', ['sass','imagemin', 'browserSync', 'watch']);
+  grunt.registerTask('default', ['sass', 'browserSync', 'watch']);
 
 };
